@@ -5,6 +5,7 @@ class Swfdec <Formula
   homepage 'http://swfdec.freedesktop.org/'
   md5 'aece501d0e73f3e564200a44ec03c385'
 
+  depends_on 'liboil'
   depends_on 'gst-plugins-base'
   depends_on 'libsoup'
 
